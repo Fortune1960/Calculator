@@ -3,18 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Digital clock.css" />
-    <title>Digital Clock</title>
+    <title>Fortune Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="calculator.css" />
   </head>
   <body>
-    <div class="clock">
-      <div id="hour"></div>
-      <span>:</span>
-      <div id="minute"></div>
-      <span>:</span>
-      <div id="seconds"></div>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" placeholder="0" id="input" disabled />
+      </div>
+      <div class="buttons">
+        <input type="button" value="AC" id="clear" />
+        <input type="button" value="Erase" id="erase" />
+        <input type="button" value="1" class="input-button" />
+        <input type="button" value="2" class="input-button" />
+        <input type="button" value="3" class="input-button" />
+        <input type="button" value="4" class="input-button" />
+        <input type="button" value="5" class="input-button" />
+        <input type="button" value="6" class="input-button" />
+        <input type="button" value="7" class="input-button" />
+        <input type="button" value="8" class="input-button" />
+        <input type="button" value="9" class="input-button" />
+        <input type="button" value="0" class="input-button" />
+        <input type="button" value="." class="input-button" />
+        <input type="button" value="+" class="input-button" />
+        <input type="button" value="-" class="input-button" />
+        <input type="button" value="*" class="input-button" />
+        <input type="button" value="/" class="input-button" />
+        <input type="button" value="(" class="input-button" />
+        <input type="button" value=")" class="input-button" />
+        <input type="button" value="%" class="input-button" id="percent" />
+        
+
+        <input type="button" value="x^y" id="pow" />
+        <input type="button" value="sin" id="sin" />
+        <input type="button" value="cos" id="cos" />
+        <input type="button" value="tan" id="tan" />
+        <input type="button" value="pie" id="pi" />
+        <input type="button" value="e" id="e" />
+        <input type="button" value="log" id="log" />
+        <input type="button" value="=" id="equal" />
+      </div>
     </div>
-    <!-- Script -->
-    <script src="Digital clock.js"></script>
+    
+
+    <script src="calculator.js"></script>
   </body>
 </html>
