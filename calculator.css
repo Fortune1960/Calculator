@@ -5,7 +5,7 @@
   font-family: "Roboto Mono", monospace;
 }
 body {
-  background: url(background.jpeg);
+  background: url("background.jpeg");
 }
 .calculator {
   position: absolute;
